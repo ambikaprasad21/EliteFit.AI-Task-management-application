@@ -102,7 +102,7 @@ function Dashboard() {
         <div className={styles.filter}>
           <div>Filter by priority:</div>
           <select name="filter by" id="" onChange={handlePriorityChange}>
-            <option value="">All task</option>
+            <option value="">All priority</option>
             <option value="Low">Low</option>
             <option value="Medium">Medium</option>
             <option value="High">High</option>
@@ -152,7 +152,7 @@ function Dashboard() {
         <div className={styles.tasks_club}>
           <div className={styles.task_col}>
             <h2>Upcoming tasks</h2>
-            {/* will be creating task using tasks array */}
+      
             <div className={styles.task_list}>
               {upcomingTasks.map((task) => (
                 <TaskItem key={task.id} task={task} />
@@ -162,7 +162,7 @@ function Dashboard() {
 
           <div className={styles.task_col}>
             <h2>Overdue tasks</h2>
-            {/* will be creating task using tasks array */}
+            
             <div className={styles.task_list}>
               {overdueTasks.map((task) => (
                 <TaskItem key={task.id} task={task} />
@@ -172,7 +172,7 @@ function Dashboard() {
 
           <div className={styles.task_col}>
             <h2>Completed tasks</h2>
-            {/* will be creating task using tasks array */}
+            
             <div className={styles.task_list}>
               {completedTasks.map((task) => (
                 <TaskItem key={task.id} task={task} />
