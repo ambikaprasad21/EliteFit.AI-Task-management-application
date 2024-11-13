@@ -20,7 +20,10 @@ function TaskItem({ task }) {
           <div className={styles.e_d}>
             <Modal>
               <Modal.Open opens="delete-project-attachment">
-                <FaPencil style={{ marginRight: "5px" }} title="Edit" />
+                <FaPencil
+                  style={{ marginRight: "5px", color: "blue" }}
+                  title="Edit"
+                />
               </Modal.Open>
               <Modal.Window name={"delete-project-attachment"}>
                 <EditTask data={task} />
@@ -28,7 +31,10 @@ function TaskItem({ task }) {
             </Modal>
             <Modal>
               <Modal.Open opens="delete-project-attachment">
-                <FaTrashCan title="Delete" />
+                <FaTrashCan
+                  title="Delete"
+                  style={{ marginRight: "5px", color: "red" }}
+                />
               </Modal.Open>
               <Modal.Window name={"delete-project-attachment"}>
                 <ConfirmDelete onConfirmDelete={() => deleteTask(task.id)} />
