@@ -1,0 +1,60 @@
+.task {
+  background-color: #f9f9f9;
+  margin-bottom: 1.4rem;
+}
+
+.task:hover .e_d {
+  display: block;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+
+.task_info {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  padding: 1.8rem 1.4rem;
+}
+
+.p_e_d {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.e_d {
+  display: none;
+}
+
+.t_d {
+}
+
+.t {
+  font-size: 1.6rem;
+  font-weight: 550;
+  margin-bottom: 3px;
+}
+
+.d {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.deadline {
+  font-size: 1.6rem;
+}
+
+.d_t {
+  font-weight: 600;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  padding: 9px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 550;
+  font-size: 1.6rem;
+  cursor: pointer;
+}

@@ -1,0 +1,114 @@
+.main {
+  padding: 3rem 5rem;
+}
+
+.main header {
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+.h_f {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g_l {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.hand {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.username {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.logout {
+  font-size: 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.s_a {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  padding: 9px 1rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #e6f3dd;
+}
+
+.s_a button {
+  border: none;
+  padding: 9px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 550;
+  font-size: 1.6rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.filter {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.no_task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15rem;
+  gap: 1.4rem;
+}
+
+.no_task p {
+  font-size: 2rem;
+  color: #b9b9b9;
+  text-align: center;
+}
+
+.tasks_club {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* align-items: center; */
+  /* justify-items: center; */
+  column-gap: 1rem;
+  margin-top: 5rem;
+}
+
+.task_col {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.task_col h2 {
+  font-size: 2.4rem;
+}
