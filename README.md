@@ -2,6 +2,15 @@
 
 A simple yet powerful Task Management application to help users organize and manage their tasks effectively. This project allows users to create, edit, delete, and filter tasks, with data stored locally so users can access their information across sessions.
 
+![Youtube video for demo](https://www.youtube.com/watch?v=h_vPKkiwJ44)
+
+**Screenshots**
+![Landing page](https://github.com/ambikaprasad21/EliteFit.AI-Task-management-application/blob/main/public/images/image%201.png)
+![Dashboard](https://github.com/ambikaprasad21/EliteFit.AI-Task-management-application/blob/main/public/images/image%202.png)
+![Create new task](https://github.com/ambikaprasad21/EliteFit.AI-Task-management-application/blob/main/public/images/image%203.png)
+![Lists of tasks](https://github.com/ambikaprasad21/EliteFit.AI-Task-management-application/blob/main/public/images/image%204.png)
+![Deleting a task](https://github.com/ambikaprasad21/EliteFit.AI-Task-management-application/blob/main/public/images/image%205.png)
+
 ## Features
 
 1. **Dashboard**
