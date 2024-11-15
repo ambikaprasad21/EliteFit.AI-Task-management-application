@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=h_vPKkiwJ44
    - All user information and tasks are saved in the browser's local storage.
    - Data remains persistent across sessions, allowing users to return to their tasks even after closing the application.
 
-5. **Fake Authentication System**
+5. **Authentication System**
    - The application uses a simple name-based "authentication" system.
    - If a user enters the same name each time they access the application, their data will persist and be accessible under that name.
 
@@ -51,7 +51,7 @@ To get started with this project locally, follow these steps:
 1. **Clone the Repository**  
    Clone the repository from GitHub to your local machine:
    ```bash
-   [git clone https://github.com/your-username/task-management-app.git](https://github.com/ambikaprasad21/EliteFit.AI-Task-management-application.git)
+   git clone https://github.com/ambikaprasad21/EliteFit.AI-Task-management-application.git
 
    ```
 2. **Navigate to the Project Directory**
